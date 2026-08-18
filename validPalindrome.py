@@ -1,2 +1,5 @@
+import regex
 s = "A man, a plan, a canal: Panama"
-gyug g
+s=s.lower()
+s= s.replace("[a-z0-9]"," ")
+print(s)
